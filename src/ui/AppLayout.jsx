@@ -1,5 +1,5 @@
 import { Outlet } from "react-router-dom"
-import SideBar from "./SideBar"
+import Sidebar from "./Sidebar"
 import Header from "./Header"
 import styled from "styled-components"
 
@@ -28,7 +28,7 @@ function AppLayout() {
   return (
     <StyledAppLayout>
       <Header />
-      <SideBar />
+      <Sidebar />
       <Main>
         <Container>
           <Outlet />
